@@ -50,14 +50,6 @@ print("Intercept (c):", model.intercept_)
 print("R² Score:", r2_score(y_test, y_pred))
 print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred)))
 
-# Plot results
-plt.scatter(X_test, y_test, color='blue', label='Actual Data')
-plt.plot(X_test, y_pred, color='red', linewidth=2, label='Regression Line')
-plt.xlabel("Hours_Studied")
-plt.ylabel("Exam_Score")
-plt.title("Study Hours vs Exam Score Prediction")
-plt.legend()
-plt.show()
 
 # Predict for a new student
 new_hours = np.array([[7.5]])
