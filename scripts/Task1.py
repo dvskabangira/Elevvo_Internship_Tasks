@@ -10,6 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 
@@ -27,31 +28,53 @@ df = data.dropna(subset=['Teacher_Quality','Parental_Education_Level','Distance_
 
 #Data preprocessing
 
-X = df[['Hours_Studied']]
-print(X.shape)
+cdf = df[['Hours_Studied','Sleep_Hours','Access_to_Resources','Exam_Score']]
+print(cdf.sample(2))
 
-y = df['Exam_Score']
+X = cdf.Hours_Studied.to_numpy()
+print(X.shape)
+y = cdf.Exam_Score.to_numpy()
 
 # Split dataset into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=45)
 
+print(np.shape(X_train)), np.shape(y_train), print(type(X_train))
+
 #Building & Training the linear model
-model = LinearRegression()
-model.fit(X_train.values,y_train.values)
+regressor = LinearRegression()
+regressor.fit(X_train.reshape(-1,1), y_train)
+
+#print coeffients
+print("Slope (m):", regressor.coef_[0])
+print("Intercept (c):", regressor.intercept_)
+
+
+# visualize model outputs
+plt.scatter(X_train, y_train, color = 'blue')
+plt.plot(X_train, regressor.coef_ * X_train + regressor.intercept_, 'r')
+plt.xlabel('Hours_Studied')
+plt.ylabel('Exam_Score')
+plt.show()
+
 
 # Predict on test set
-y_pred = model.predict(X_test.values)
+y_pred = regressor.predict(X_test.reshape(-1,1))
 print("Predicted scores:", y_pred)
 
 
-# Model performance
-print("Slope (m):", model.coef_[0])
-print("Intercept (c):", model.intercept_)
+# Model Evaluation
+
 print("R² Score:", r2_score(y_test, y_pred))
 print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred)))
 
 
 # Predict for a new student
 new_hours = np.array([[7.5]])
-predicted_score = model.predict(new_hours)
+predicted_score = regressor.predict(new_hours)
 print(f"Predicted score for 7.5 hours of study: {predicted_score[0]:.2f}")
+
+
+
+
+##Polynomial Regression
+
