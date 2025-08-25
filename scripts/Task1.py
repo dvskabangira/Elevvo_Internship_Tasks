@@ -16,7 +16,7 @@ from sklearn.metrics import r2_score, mean_squared_error
 
 
 #load data & simple visualization
-data = pd.read_csv("/workspaces/Elvvo_Task1-Student_score_predicition/Data/StudentPerformanceFactors.csv")
+data = pd.read_csv("/workspaces/Elevvo_Internship_Tasks/Data/StudentPerformanceFactors.csv")
 print(data.head(5))
 print(data.describe())
 
