@@ -3,28 +3,24 @@
 Project Structure
 -----------------
 
-  <code>                  
- ```
- * [Task3_Loan prediction](./Task3_Loan prediction)
-   * [Task.ipynb](./Task3_Loan prediction/Task.ipynb)
- * [Data](./Data)
-   * [StudentPerformanceFactors.csv](./Data/StudentPerformanceFactors.csv)
-   * [Mall_Customers.csv](./Data/Mall_Customers.csv)
-   * [loan_approval_dataset.csv](./Data/loan_approval_dataset.csv)
- * [Task1_Student_score_prediction](./Task1_Student_score_prediction)
-   * [Task1_Student_score_pred.ipynb](./Task1_Student_score_prediction/Task1_Student_score_pred.ipynb)
- * [Task2_Customer_segmentation](./Task2_Customer_segmentation)
-   * [Task2_Customer_Segmentation.ipynb](./Task2_Customer_segmentation/Task2_Customer_Segmentation.ipynb)
- * [Task4_Traffic sign recognition](./Task4_Traffic sign recognition)
-   * [script.ipynb](./Task4_Traffic sign recognition/script.ipynb)
-   * [traffic_classifier1.h5](./Task4_Traffic sign recognition/traffic_classifier1.h5)
-   * [predict.py](./Task4_Traffic sign recognition/predict.py)
-   * [image](./Task4_Traffic sign recognition/image)
-   * [picture.png](./Task4_Traffic sign recognition/image/picture.png)
- * [README.md](./README.md)(base)
-```
-</code>  
-
+repo/
+├─ Task3_Loan prediction/
+│ └─ Task.ipynb
+├─ Data/
+│ ├─ StudentPerformanceFactors.csv
+│ ├─ Mall_Customers.csv
+│ └─ loan_approval_dataset.csv
+├─ Task1_Student_score_prediction/
+│ └─ Task1_Student_score_pred.ipynb
+├─ Task2_Customer_segmentation/
+│ └─ Task2_Customer_Segmentation.ipynb
+├─ Task4_Traffic sign recognition/
+│ ├─ script.ipynb
+│ ├─ traffic_classifier1.h5
+│ ├─ predict.py
+│ └─ image/
+│ └─ picture.png
+└─ README.md
 
 
 Completed tasks in this internship include; 
@@ -68,3 +64,26 @@ Result
 ------
 <div align="center">
   <img src="Task4_Traffic sign recognition/image/picture.png" alt="Result" width="800">
+
+
+
+
+
+<code  * [Task3_Loan prediction](./Task3_Loan prediction)
+   * [Task.ipynb](./Task3_Loan prediction/Task.ipynb)
+ * [Data](./Data)
+   * [StudentPerformanceFactors.csv](./Data/StudentPerformanceFactors.csv)
+   * [Mall_Customers.csv](./Data/Mall_Customers.csv)
+   * [loan_approval_dataset.csv](./Data/loan_approval_dataset.csv)
+ * [Task1_Student_score_prediction](./Task1_Student_score_prediction)
+   * [Task1_Student_score_pred.ipynb](./Task1_Student_score_prediction/Task1_Student_score_pred.ipynb)
+ * [Task2_Customer_segmentation](./Task2_Customer_segmentation)
+   * [Task2_Customer_Segmentation.ipynb](./Task2_Customer_segmentation/Task2_Customer_Segmentation.ipynb)
+ * [Task4_Traffic sign recognition](./Task4_Traffic sign recognition)
+   * [script.ipynb](./Task4_Traffic sign recognition/script.ipynb)
+   * [traffic_classifier1.h5](./Task4_Traffic sign recognition/traffic_classifier1.h5)
+   * [predict.py](./Task4_Traffic sign recognition/predict.py)
+   * [image](./Task4_Traffic sign recognition/image)
+   * [picture.png](./Task4_Traffic sign recognition/image/picture.png)
+ * [README.md](./README.md)(base)
+</code>
