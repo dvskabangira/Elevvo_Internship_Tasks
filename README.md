@@ -39,4 +39,4 @@ Description:
 Result
 ------
 <div align="center">
-  <img src="image/picture.png" alt="Result" width="200">
+  <img src="Task4_Traffic sign recognition/image/picture.png" alt="Result" width="200">
