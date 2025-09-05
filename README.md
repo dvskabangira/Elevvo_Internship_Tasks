@@ -2,7 +2,7 @@
 
 Project Structure
 -----------------
-
+```
 repo/
 ├─ Task3_Loan prediction/
 │ └─ Task.ipynb
@@ -21,7 +21,7 @@ repo/
 │ └─ image/
 │ └─ picture.png
 └─ README.md
-
+```
 
 Completed tasks in this internship include; 
 **(i)** Student score prediction
