@@ -65,12 +65,12 @@ Result
 <div align="center">
   <img src="Task4_Traffic sign recognition/image/picture.png" alt="Result" width="800">
 
-
+</div>
 
 ##  Tech Stack & Tools used
 
-- **Python** — programming language 
-- **Matplotlib  and Seaborn** — for visualizing data and insights 
-- **Pandas and NumPy** — for data manipulation and preprocessing  
-- **scikit-learn** — modeling and evaluation  
-- **Jupyter Notebooks** — interactive development environment  
+1. **Python** — programming language 
+2. **Matplotlib  and Seaborn** — for visualizing data and insights 
+3. **Pandas and NumPy** — for data manipulation and preprocessing  
+4.  **scikit-learn** — modeling and evaluation  
+5.  **Jupyter Notebooks** — interactive development environment  
