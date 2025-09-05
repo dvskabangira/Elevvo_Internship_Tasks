@@ -36,5 +36,7 @@ Description:
 - Built and  trained a CNN model to recognize different traffic sign classes
 -  Evaluated model performance using accuracy and confusion matrix
 
-<p align="center">
-    <img src="/workspaces/Elevvo_Internship_Tasks/Task4_Traffic sign recognition/Screen Shot 2025-09-05 at 4.31.01 PM.png", width="540">
+Result
+------
+<div align="center">
+  <img src="image/picture.png" alt="Result" width="200">
