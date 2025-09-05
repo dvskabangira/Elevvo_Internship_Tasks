@@ -67,23 +67,10 @@ Result
 
 
 
+##  Tech Stack & Tools used
 
-
-<code  * [Task3_Loan prediction](./Task3_Loan prediction)
-   * [Task.ipynb](./Task3_Loan prediction/Task.ipynb)
- * [Data](./Data)
-   * [StudentPerformanceFactors.csv](./Data/StudentPerformanceFactors.csv)
-   * [Mall_Customers.csv](./Data/Mall_Customers.csv)
-   * [loan_approval_dataset.csv](./Data/loan_approval_dataset.csv)
- * [Task1_Student_score_prediction](./Task1_Student_score_prediction)
-   * [Task1_Student_score_pred.ipynb](./Task1_Student_score_prediction/Task1_Student_score_pred.ipynb)
- * [Task2_Customer_segmentation](./Task2_Customer_segmentation)
-   * [Task2_Customer_Segmentation.ipynb](./Task2_Customer_segmentation/Task2_Customer_Segmentation.ipynb)
- * [Task4_Traffic sign recognition](./Task4_Traffic sign recognition)
-   * [script.ipynb](./Task4_Traffic sign recognition/script.ipynb)
-   * [traffic_classifier1.h5](./Task4_Traffic sign recognition/traffic_classifier1.h5)
-   * [predict.py](./Task4_Traffic sign recognition/predict.py)
-   * [image](./Task4_Traffic sign recognition/image)
-   * [picture.png](./Task4_Traffic sign recognition/image/picture.png)
- * [README.md](./README.md)(base)
-</code>
+- **Python** — programming language 
+- **Matplotlib  and Seaborn** — for visualizing data and insights 
+- **Pandas and NumPy** — for data manipulation and preprocessing  
+- **scikit-learn** — modeling and evaluation  
+- **Jupyter Notebooks** — interactive development environment  
