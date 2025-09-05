@@ -1,4 +1,4 @@
-# Welcome to Elvvo_Machine Learning Internships Tasks(End-to-end projects)
+# Welcome to Elevvo_Machine Learning Internship(End-to-end projects)
 
 Project Structure
 -----------------
