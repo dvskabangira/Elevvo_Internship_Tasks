@@ -42,7 +42,7 @@ Description:
 Description:
 - Clustered customers into segments based on income and spending score
 - Performed scaling and visual exploration of groupings
-- Apply K-Means clustering and determined optimal number of clusters
+- Applied K-Means clustering and determined optimal number of clusters
 - Visualized clusters using 2D plots
 
 
