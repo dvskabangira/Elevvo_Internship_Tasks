@@ -29,9 +29,12 @@ Description:
 - Trained a classification model and evaluated its performance on imbalanced data
 
 
-## Task 3: Traffic sign recognition
+## Task 4: Traffic sign recognition
 Description:
 - Classified traffic signs based on their image using deep learning
 - Preprocessed images (resizing, normalization)
 - Built and  trained a CNN model to recognize different traffic sign classes
 -  Evaluated model performance using accuracy and confusion matrix
+
+<p align="center">
+    <img src="/workspaces/Elevvo_Internship_Tasks/Task4_Traffic sign recognition/Screen Shot 2025-09-05 at 4.31.01 PM.png", width="540">
