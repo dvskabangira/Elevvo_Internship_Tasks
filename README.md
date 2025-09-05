@@ -3,13 +3,8 @@
 Project Structure
 -----------------
 
-
-
-                    
+  <code>                  
  ```
-# Project tree
-
-
  * [Task3_Loan prediction](./Task3_Loan prediction)
    * [Task.ipynb](./Task3_Loan prediction/Task.ipynb)
  * [Data](./Data)
@@ -27,8 +22,8 @@ Project Structure
    * [image](./Task4_Traffic sign recognition/image)
    * [picture.png](./Task4_Traffic sign recognition/image/picture.png)
  * [README.md](./README.md)(base)
-
 ```
+</code>  
 
 
 
